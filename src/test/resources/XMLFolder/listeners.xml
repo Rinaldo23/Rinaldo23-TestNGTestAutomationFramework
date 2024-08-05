@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="com.qa.listeners.TestListener" />
+	</listeners>
+
+	<test name="SearchProductsTest" enabled="true">
+		<classes>
+			<class name="com.qa.testcases.SearchProductTestCase" />
+		</classes>
+	</test>
+
+	<test name="RegisterTest" enabled="false">
+		<parameter name="browserName" value="firefox" />
+		<classes>
+			<class name="com.qa.testcases.RegisterTestCase" />
+		</classes>
+	</test>
+
+</suite> 

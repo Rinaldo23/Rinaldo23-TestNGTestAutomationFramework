@@ -1,0 +1,11 @@
+# Eclipse-specific files
+.classpath
+.project
+.settings/
+
+# Maven build output
+target/
+
+# Ignore other common files
+.DS_Store
+Thumbs.db

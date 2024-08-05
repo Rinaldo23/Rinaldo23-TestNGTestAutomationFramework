@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-05T16:29:55 IST" name="Suite" finished-at="2024-08-05T16:30:14 IST" duration-ms="18813">
+    <groups>
+      <group name="smoke">
+        <method signature="LoginTestCase.ValidateForgotPasswordLink()[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" name="ValidateForgotPasswordLink" class="com.qa.testcases.LoginTestCase"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-08-05T16:29:55 IST" name="LoginTest" finished-at="2024-08-05T16:30:14 IST" duration-ms="18813">
+      <class name="com.qa.testcases.LoginTestCase">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:29:55 IST" name="startDriver" finished-at="2024-08-05T16:29:57 IST" duration-ms="1886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="LoginWithInvalidCredentials(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:29:57 IST" name="LoginWithInvalidCredentials" data-provider="InvalidTestData" finished-at="2024-08-05T16:29:58 IST" duration-ms="1257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:29:58 IST" name="quitDriver" finished-at="2024-08-05T16:29:58 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:29:58 IST" name="startDriver" finished-at="2024-08-05T16:29:59 IST" duration-ms="1002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="LoginWithInvalidCredentials(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:29:59 IST" name="LoginWithInvalidCredentials" data-provider="InvalidTestData" finished-at="2024-08-05T16:30:01 IST" duration-ms="1195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:30:01 IST" name="quitDriver" finished-at="2024-08-05T16:30:01 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:30:01 IST" name="startDriver" finished-at="2024-08-05T16:30:02 IST" duration-ms="1391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="LoginWithValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:30:02 IST" name="LoginWithValidCredentials" data-provider="ValidTestData" finished-at="2024-08-05T16:30:04 IST" duration-ms="1616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test12345@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCredentials -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:30:04 IST" name="quitDriver" finished-at="2024-08-05T16:30:04 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:30:04 IST" name="startDriver" finished-at="2024-08-05T16:30:05 IST" duration-ms="1107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="LoginWithValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:30:05 IST" name="LoginWithValidCredentials" data-provider="ValidTestData" finished-at="2024-08-05T16:30:06 IST" duration-ms="1462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test12345@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCredentials -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:30:06 IST" name="quitDriver" finished-at="2024-08-05T16:30:07 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:30:07 IST" name="startDriver" finished-at="2024-08-05T16:30:08 IST" duration-ms="1804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:30:07 IST" name="startDriver" finished-at="2024-08-05T16:30:08 IST" duration-ms="1532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:30:07 IST" name="startDriver" finished-at="2024-08-05T16:30:09 IST" duration-ms="2062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:30:07 IST" name="startDriver" finished-at="2024-08-05T16:30:09 IST" duration-ms="2172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="LoginWithValidCredsAndParrallelAttribute(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:30:08 IST" name="LoginWithValidCredsAndParrallelAttribute" data-provider="ParallelTestData" finished-at="2024-08-05T16:30:11 IST" duration-ms="2533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test12345@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCredsAndParrallelAttribute -->
+        <test-method signature="LoginWithValidCredsAndParrallelAttribute(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:30:08 IST" name="LoginWithValidCredsAndParrallelAttribute" data-provider="ParallelTestData" finished-at="2024-08-05T16:30:11 IST" duration-ms="2741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test12345@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCredsAndParrallelAttribute -->
+        <test-method signature="LoginWithValidCredsAndParrallelAttribute(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:30:09 IST" name="LoginWithValidCredsAndParrallelAttribute" data-provider="ParallelTestData" finished-at="2024-08-05T16:30:11 IST" duration-ms="2830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test12345@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCredsAndParrallelAttribute -->
+        <test-method signature="LoginWithValidCredsAndParrallelAttribute(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:30:09 IST" name="LoginWithValidCredsAndParrallelAttribute" data-provider="ParallelTestData" finished-at="2024-08-05T16:30:11 IST" duration-ms="2569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test12345@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCredsAndParrallelAttribute -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:30:11 IST" name="quitDriver" finished-at="2024-08-05T16:30:11 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:30:11 IST" name="quitDriver" finished-at="2024-08-05T16:30:11 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:30:11 IST" name="quitDriver" finished-at="2024-08-05T16:30:11 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:30:11 IST" name="quitDriver" finished-at="2024-08-05T16:30:12 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:30:12 IST" name="startDriver" finished-at="2024-08-05T16:30:13 IST" duration-ms="1102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="ValidateForgotPasswordLink()[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:30:13 IST" name="ValidateForgotPasswordLink" finished-at="2024-08-05T16:30:14 IST" duration-ms="969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateForgotPasswordLink -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.qa.testcases.LoginTestCase@13e344d]" started-at="2024-08-05T16:30:14 IST" name="quitDriver" finished-at="2024-08-05T16:30:14 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.qa.testcases.LoginTestCase -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- Suite -->
+</testng-results>
